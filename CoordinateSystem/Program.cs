@@ -30,6 +30,7 @@ namespace CoordinateSystem
                 Console.Write("The coordinate point ({0} {1}) lies in the Fourth quandrant.\n\n", x, y);
             else if (x == 0 && y == 0)
                 Console.Write("The coordinate point ({0} {1}) lies at the origin.\n\n", x, y);
+             
 
             Console.ReadKey();
         }
